@@ -1,0 +1,39 @@
+/*JazzBlock buttonX_blue*/
+.buttonXp_blue{
+  color: #003399;
+  border-style: solid;
+  border-color: #003399;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #003399;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonXp_blue:hover{
+  color: #3377ff;
+  border-style: solid;
+  border-color: #3377ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #3377ff;
+  cursor: pointer;
+}
+.buttonXp_blue:active{
+  color: #cecece;
+  border-style: solid;
+  border-color: #cecece;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #00e6b8;
+  cursor: pointer;
+}
+/*end*/
