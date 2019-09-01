@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ministry Index</title>
+<html lang="en" style="padding-left: 3mm; padding-right: 3mm; background-color: #343546;">
+<link rel="shortcut icon" href="./wave_dev.PNG">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146475495-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146475495-3');
+</script>
+<link rel="preload" href="./dev.css" as="style">
+<link rel="stylesheet" href="./dev.css">
+
+<!--JazzBlocks required code-->
+<link rel="preload" href=".https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<!--end-->
+<link rel="preload" href="https://lh4.googleusercontent.com/39y-9mA5xvRfbTnQtBKucM3h9aMEUyCTNSVrudrjefdFOEv2jVnWt3J9a9hmUKRvTHAySt5F0A=w16383">
+  <p class="pn_m_o" style="text-align: left; color: #cecece;"><span><a href="./index.html"><img src="./wave_dev.PNG" width="50mm"></a></span>Ministry Index</p>
+
+<body>
+<p style="text-align: center;color: #cecece;" class="pn_l_u">Find the right ministry for you.</p>
+
+
+<center>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search the web...">
+<div class="index">
+<ul id="myUL">
+
+  <!--3 WDM Index-->
+  <li><a href="https://www.wavedm.net/" rel="noreferrer">wavedm.net/ <p class="pc_s">Wave Digital Ministries is an online Christian ministry. /nonprofit/software/media</p></a></li>
+  <li><a href="https://www.wavedm.net/ripple" rel="noreferrer">wavedm.net/ripple <p class="pc_s">Wave Digital Ministries is an online Christian ministry. /nonprofit/software/media</p></a></li>
+  <li><a href="https://www.wavedm.net/social" rel="noreferrer">wavedm.net/social <p class="pc_s">Wave Digital Ministries is an online Christian ministry. /nonprofit/software/media</p></a></li>
+  <!--end-->
+
+  <!--87 links indexed-->
+</ul>
+
+</center>
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</div>
+</body>
+<footer style="padding-top: 10mm;">
+
+</footer>
+</html>
