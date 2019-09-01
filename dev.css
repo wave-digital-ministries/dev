@@ -92,3 +92,98 @@ column-count: 1
   left: 0px;
   right: 0px;
 }
+/*JazzBlock pn and all compatable mods*/
+.pn{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+}
+.pn_s{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+}
+.pn_m{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+}
+.pn_l{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+}
+.pn_u{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.pn_s_u{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.pn_m_u{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.pn_l_u{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.pn_o{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.pn_s_o{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.pn_m_o{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.pn_l_o{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.pn_st{
+  font-family: 'Literata', serif;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.pn_s_st{
+  font-family: 'Literata', serif;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.pn_m_st{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.pn_l_st{
+  font-family: 'Literata', serif;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
+#fa{
+  color:#0099ff;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#fa:hover{
+  color:#4db8ff;
+  text-decoration: underline;
+}
+footer{
+  padding-top: 10mm;
+bottom: 10mm;
+}
