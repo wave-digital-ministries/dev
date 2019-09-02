@@ -52,21 +52,24 @@ html{
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
+  background-color: #cecece; /* Grey background color */
+  border-radius: 5mm;
 }
 
 #myUL {
   /* Remove default list styling */
   list-style-type: none;
-  width: 94.5%;
+  width: 100%;
   padding: 0;
   margin: 0;
-column-count: 1
+column-count: 1;
+
 }
 
 #myUL li a {
   border: 1px solid #ddd; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6; /* Grey background color */
+  background-color: #cecece; /* Grey background color */
   padding: 12px; /* Add some padding */
   text-decoration: none; /* Remove default text underline */
   font-size: 18px; /* Increase the font-size */
@@ -85,6 +88,8 @@ column-count: 1
   height: 100mm;
   overflow: scroll;
   margin: 0mm;
+  border-radius: 5mm;
+
 }
 .search_bar{
   position: fixed;
