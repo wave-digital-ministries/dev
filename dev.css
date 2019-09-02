@@ -220,3 +220,79 @@ footer{
   padding-top: 10mm;
 bottom: 10mm;
 }
+
+
+
+
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+
+}
+div.container{
+width: 900px;
+height: 610px;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+margin-top:50px;
+}
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+label{
+  font-family: 'Literata', serif;
+  font-size: 5mm;
+  text-decoration: none;
+}
+.note{
+color:red;
+}
+.valid{
+color:green;
+}
+.back{
+text-decoration: none;
+border: 1px solid rgb(0, 143, 255);
+background-color: rgb(0, 214, 255);
+padding: 3px 20px;
+border-radius: 2px;
+color: black;
+}
+input[type=button]{
+  color: #0099ff;
+  border-style: solid;
+  border-color: #0099ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #0099ff;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+input[type=button]:hover{
+  color: #4db8ff;
+  border-style: solid;
+  border-color: #4db8ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #4db8ff;
+  cursor: pointer;
+}
