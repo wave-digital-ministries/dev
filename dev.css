@@ -100,9 +100,11 @@ column-count: 1;
   display: block; /* Make it into a block element to fill the whole list */
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
+  font-family: 'Literata', serif;
 }
 
 #myUL li a:hover:not(.header) {
+  font-family: 'Literata', serif;
   background-color: #0099ff; /* Add a hover effect to all links, except for headers */
   border-color: #0099ff;
 }
@@ -113,6 +115,7 @@ column-count: 1;
   margin: 0mm;
   border-radius: 5mm;
 
+
 }
 
 .search_bar{
@@ -120,6 +123,7 @@ column-count: 1;
   top: 0px;
   left: 0px;
   right: 0px;
+  font-family: 'Literata', serif;
 }
 /*JazzBlock pn and all compatable mods*/
 .pn{
