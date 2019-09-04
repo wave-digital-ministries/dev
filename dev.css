@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
   font-family: monospace;
   font-size: 5mm;
   background-color: #343546;
-  box-shadow: 0mm 0mm 0mm #0099ff;
+  box-shadow: 0mm 0mm 4mm black;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
@@ -49,7 +49,7 @@ body::-webkit-scrollbar-thumb {
   font-family: monospace;
   font-size: 5mm;
   background-color: #343546;
-  box-shadow: 0mm 0mm 4mm #4db8ff;
+  box-shadow: 0mm 0mm 5mm #4db8ff;
   cursor: pointer;
 }
 .buttonXp_blue:active{
@@ -295,4 +295,11 @@ input[type=button]:hover{
   background-color: #343546;
   box-shadow: 0mm 0mm 4mm #4db8ff;
   cursor: pointer;
+}
+.con1{
+  background-image: url(./css.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: top;
+  width: 100%;
 }
