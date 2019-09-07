@@ -65,6 +65,9 @@ function Hpc(){
 function Hpo(){
    document.getElementById("heading").className = "po_l";
 }
+function Hph(){
+   document.getElementById("heading").className = "ph_l";
+}
 function Hcenter(){
  document.getElementById("heading").style.textAlign = "center";
 }
@@ -77,6 +80,9 @@ function Hright(){
 
 function Bpf(){
    document.getElementById("body").className = "pf_m";
+}
+function Bph(){
+   document.getElementById("body").className = "ph_m";
 }
 function Bpn(){
    document.getElementById("body").className = "pn_m";
@@ -98,6 +104,9 @@ function Bright(){
 }
 function Fpf(){
    document.getElementById("footer").className = "pf_m";
+}
+function Fph(){
+   document.getElementById("footer").className = "ph_m";
 }
 function Fpn(){
    document.getElementById("footer").className = "pn_m";
