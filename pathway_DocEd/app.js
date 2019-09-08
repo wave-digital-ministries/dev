@@ -147,3 +147,13 @@ function blue(){
    document.getElementById("body").style.color = "#0099ff";
    document.getElementById("footer").style.color = "#0099ff";
 }
+
+function doc1(){
+   document.getElementById("iframe").src = "./doc.html";
+}
+function doc2(){
+   document.getElementById("iframe").src = "./doc2.html";
+}
+function doc3(){
+   document.getElementById("iframe").src = "./doc3.html";
+}

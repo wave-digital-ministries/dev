@@ -27,12 +27,12 @@
 </script>
 	  <title>Pathway|DocEd</title>
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="DocEd.css"/>
 		<p id="top" class="pn_m_o" style="text-align: left; color: #cecece;"><span><a href="https://dev.wavedm.net/"><img src="https://dev.wavedm.net/wave_dev.PNG" width="50mm"></a></span>Pathway|DocEd</p>
 	</head>
 	<body style="background-color: #343546;">
 		<center>
-		<iframe src="./doc.html" width="90%" height="500mm" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			<p id="controlBar"><button onclick="doc1();" class="buttonY">Doc 1</button><button onclick="doc2();" class="buttonY">Doc 2</button><button onclick="doc3();" class="buttonY">Doc 3</button></p>
+		<iframe id="iframe" src="./doc.html" width="90%" height="500mm" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 		<p id="controlBar"><button class="buttonY" onclick="clear();">Clear</button><button class="buttonY" onclick="hide(); window.print(); show();">Print</button></p>
 		<script src="app.js"></script>
 		</center>
