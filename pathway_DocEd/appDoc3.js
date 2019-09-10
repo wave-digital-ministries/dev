@@ -1,3 +1,13 @@
+document.getElementById("head").innerHTML =
+    localStorage["head"] || "Bill Bob Jones"; // default text
+
+document.getElementById("solutation").innerHTML =
+    localStorage["solutation"] || "Dear Mr. or Mrs,"; // default text
+document.getElementById("closing").innerHTML =
+    localStorage["closing"] || "sincierely yours,"; // default text
+document.getElementById("yourName").innerHTML =
+  localStorage["yourName"] || "Billy Bob Joe"; // default text
+
 document.getElementById("heading").innerHTML =
   localStorage["title"] || "The title"; // default text
 document.getElementById("body").innerHTML =
@@ -159,10 +169,4 @@ function doc3(){
 }
 function doc4(){
    document.getElementById("iframe").src = "./doc4.html";
-}
-function doc5(){
-   document.getElementById("iframe").src = "./doc5.html";
-}
-function doc6(){
-   document.getElementById("iframe").src = "./doc6.html";
 }

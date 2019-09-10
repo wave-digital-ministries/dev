@@ -1,3 +1,26 @@
+document.getElementById("yourStreet").innerHTML =
+  localStorage["yourStreet"] || "Title Street"; // default text
+  document.getElementById("yourCity").innerHTML =
+    localStorage["yourCity"] || "TitleVille"; // default text
+    document.getElementById("yourZip").innerHTML =
+      localStorage["yourZipt"] || "12345"; // default text
+      document.getElementById("date").innerHTML =
+        localStorage["date"] || "December 11th, 2901"; // default text
+        document.getElementById("reciever").innerHTML =
+          localStorage["reciever"] || "Billy Bob"; // default text
+        document.getElementById("outStreet").innerHTML =
+          localStorage["yourStreet"] || "Title Street"; // default text
+          document.getElementById("outCity").innerHTML =
+            localStorage["yourCity"] || "TitleVille"; // default text
+            document.getElementById("outZip").innerHTML =
+              localStorage["yourZipt"] || "12345"; // default text
+              document.getElementById("solutation").innerHTML =
+                localStorage["solutation"] || "Dear whomever it may concern,"; // default text
+                document.getElementById("closing").innerHTML =
+                  localStorage["closing"] || "sincierely yours,"; // default text
+                  document.getElementById("yourName").innerHTML =
+                    localStorage["yourName"] || "Billy Bob Joe"; // default text
+
 document.getElementById("heading").innerHTML =
   localStorage["title"] || "The title"; // default text
 document.getElementById("body").innerHTML =
@@ -159,10 +182,4 @@ function doc3(){
 }
 function doc4(){
    document.getElementById("iframe").src = "./doc4.html";
-}
-function doc5(){
-   document.getElementById("iframe").src = "./doc5.html";
-}
-function doc6(){
-   document.getElementById("iframe").src = "./doc6.html";
 }
