@@ -4,7 +4,7 @@ document.getElementById("head").innerHTML =
 document.getElementById("solutation").innerHTML =
     localStorage["solutation"] || "Dear Mr. or Mrs,"; // default text
 document.getElementById("closing").innerHTML =
-    localStorage["closing"] || "sincierely yours,"; // default text
+    localStorage["closing"] || "sincerely yours,"; // default text
 document.getElementById("yourName").innerHTML =
   localStorage["yourName"] || "Billy Bob Joe"; // default text
 

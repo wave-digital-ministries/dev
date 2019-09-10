@@ -17,7 +17,7 @@ document.getElementById("yourStreet").innerHTML =
               document.getElementById("solutation").innerHTML =
                 localStorage["solutation"] || "Dear whomever it may concern,"; // default text
                 document.getElementById("closing").innerHTML =
-                  localStorage["closing"] || "sincierely yours,"; // default text
+                  localStorage["closing"] || "sincerely yours,"; // default text
                   document.getElementById("yourName").innerHTML =
                     localStorage["yourName"] || "Billy Bob Joe"; // default text
 
