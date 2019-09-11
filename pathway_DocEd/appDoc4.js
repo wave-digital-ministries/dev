@@ -1,9 +1,9 @@
 document.getElementById("heading").innerHTML =
-  localStorage["title"] || "The title"; // default text
+  localStorage["title"] || "el encabezado"; // default text
 document.getElementById("body").innerHTML =
-  localStorage["text"] || "The body"; // default text
-  document.getElementById("footer").innerHTML =
-    localStorage["footer"] || "The footer"; // default text
+  localStorage["textSp"] || "el cuerpo"; // default text
+  document.getElementById("footerSp").innerHTML =
+    localStorage["footerSp"] || "el pie de página"; // default text
 
 setInterval(function() {
   // fuction that is saving the innerHTML of the div
@@ -159,13 +159,4 @@ function doc3(){
 }
 function doc4(){
    document.getElementById("iframe").src = "./doc4.html";
-}
-function doc5(){
-   document.getElementById("iframe").src = "./doc5.html";
-}
-function doc6(){
-   document.getElementById("iframe").src = "./doc6.html";
-}
-function doc7(){
-   document.getElementById("iframe").src = "./doc7.html";
 }
