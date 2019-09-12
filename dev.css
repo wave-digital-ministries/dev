@@ -1,9 +1,16 @@
 html{
-  margin: 0mm;
+color: #1a1a1a;
+overflow-x: hidden;
   scroll-behavior: smooth;
+background-color: #8DA9B0;
+}
+body{
+  margin-top: 35mm;
+  margin-bottom: 5mm;
 }
 body::-webkit-scrollbar {
     width: 1em;
+
 }
 
 body::-webkit-scrollbar-track {
@@ -352,4 +359,39 @@ input[type=button]:hover{
   display: block;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
+}
+header{
+  background-color: #cecece;
+  position: fixed;
+  top: 0mm;
+  left: 0mm;
+  width: 100%;
+  padding: 3mm;
+}
+#menuButtons{
+  margin-top: 1mm;
+  top: 1mm;
+  position: fixed;
+  right: 5mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#menuButtons a{
+  color:#1a1a1a;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  border-style: solid;
+  border-radius: 5mm;
+  border-color: #cecece;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  background-color: #cecece;
+}
+#menuButtons a:hover{
+  color: #4db8ff;
+  border-style: solid;
+  border-radius: 5mm;
+  border-color: #626d71;
+  background-color: #626d71;
 }
