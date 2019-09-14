@@ -395,3 +395,15 @@ header{
   border-color: #626d71;
   background-color: #626d71;
 }
+#fa2{
+  color:#1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #1a1a1a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#fa2:hover{
+  color:blue;
+  text-decoration: underline;
+    text-decoration-color: #1a1a1a;
+}
