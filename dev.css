@@ -361,7 +361,7 @@ input[type=button]:hover{
   transition-duration: 0.3s;
 }
 header{
-  background-color: #cecece;
+  background-color: #D2DADD;
   position: fixed;
   top: 0mm;
   left: 0mm;
@@ -383,10 +383,10 @@ header{
   transition-duration: 0.3s;
   border-style: solid;
   border-radius: 5mm;
-  border-color: #cecece;
+  border-color: #D2DADD;
   padding-left: 1mm;
   padding-right: 1mm;
-  background-color: #cecece;
+  background-color: #D2DADD;
 }
 #menuButtons a:hover{
   color: #4db8ff;
