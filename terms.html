@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<meta name="Description" content="Wave Digital Ministries developer site">
+<meta name="keywords" content="Christian, ministry, Christian ministry, developer">
+<html lang="en">
+<link rel="shortcut icon" href="./wave.PNG">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146475495-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146475495-1');
+</script>
+
+
+<link rel="preload" href="./main.css" as="style">
+<link rel="stylesheet" href="./main.css">
+
+<!--JazzBlocks required code-->
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+<header>
+<div class="menuWDM">
+  <p class="pn_m_u" style="text-align: left;"><span><a href="./index1.html"><img src="./wave.PNG" width="60mm"></a></span>Wave Digital Ministries <span id="menuButtons"><a href="http://courses.wavedm.net/">Courses</a><a href="./about.html">About</a><a href="https://courses.wavedm.net/donate.html" target="_blank">Donate</a><a href="./ministry_indexCSE.html">Ministry Search</a></span></p>
+</div>
+<div style="padding-top: 10mm" class="menuWDM">
+  <center>
+<p><span><!--<a href="#"><button class="menuButtons2">Ministry Tools</button></a>--><a href="./account.html"><button class="menuButtons2">Community</button></a><!--<a href="#"><button class="menuButtons2">Partners</button></a>--><a href="./contact.html"><button class="menuButtons2">Contact Us</button></a><a href="./subscribe.html" target="_blank"><button class="menuButtons2">Subscribe</button></a><a href="https://dev.wavedm.net/"><button class="menuButtons2">Developers</button></a><a href="./privacy.html" target="_blank"><button class="menuButtons2">Privacy</button></a></span></p>
+  </center>
+</div>
+</header>
+<body>
+<center>
+<div class="con10">
+  <p style="padding:0mm;"></p>
+  <div style="background-color: #D2DADD;">
+    <p style="text-align: center;" class="pn_l_u">Ministry Encyclopedia</p>
+    <p style="text-align: center;" class="pn_m">This is still being built</p>
+    <p style="text-align: center;" class="pn_s">Version alpha1.0</p>
+    <center>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a ministry...">
+    <div class="index">
+    <ul id="myUL">
+
+      <!--3 WDM Encyclopedia-->
+      <li><a  rel="noreferrer">Christian <p class="pc_s">A person who believes and follows Christ. </p></a></li>
+
+    </ul>
+    </center>
+    <script>
+    function myFunction() {
+      // Declare variables
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById('myInput');
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("myUL");
+      li = ul.getElementsByTagName('li');
+
+      // Loop through all list items, and hide those who don't match the search query
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+    </div>
+<p style="padding:2mm;"></p>
+</div></div>
+<p style="margin: 25mm;"></p>
+
+</center>
+</body>
+
+<footer>
+  <center>
+
+    <div style=" margin-top: 5mm;">
+      <a style="margin-right: 2mm;" href="https://faithlife.com/wave-digital-ministries-network/" target="_blank"><img src="./icons/FaithLife.png" alt="FaithLife Button" width="70px"></a><a href="https://www.instagram.com/wavedigitalministries/" target="_blank"><img src="./icons/instagram.png" alt="instagram Button" width="70px"></a><a style="margin-left: 2mm;" href="https://twitter.com/ministries_wave" target="_blank"><img src="./icons/TwitterButton.png" alt="Twitter Button" width="70px"></a>
+    </div>
+  <!--https://www.facebook.com/Wave-Digital-Ministries-102990284411843/?modal=admin_todo_tour-->
+</center>
+</footer>
+</html>
