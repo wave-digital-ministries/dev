@@ -1026,44 +1026,6 @@ section.lazy-placeholder:after {
 .cid-rSOwUvFUYq {
   background-image: url("../../../assets/images/waves-1920x1080.jpg");
 }
-.cid-rSXNMUUSzk {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #d2dadd;
-}
-.cid-rSXNMUUSzk [class^="socicon-"]:before,
-.cid-rSXNMUUSzk [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-.cid-rSXNMUUSzk .social-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.cid-rSXNMUUSzk .btn-social,
-.cid-rSXNMUUSzk .mbr-section-title {
-  color: #57468b;
-}
-.cid-rSXNMUUSzk .soc-item {
-  width: 45px;
-  height: 45px;
-  background: #6b868d;
-  border-radius: 100%;
-  display: flex;
-  box-shadow: 0 10px 10px rgba(111, 145, 218, 0.15);
-  justify-content: center;
-  align-items: center;
-  margin: 0 0.6rem;
-  margin-bottom: 1rem;
-}
-.cid-rSXNMUUSzk .soc-item span {
-  font-size: 1.4rem;
-  color: #1a1a1a !important;
-  transition: all 0.3s;
-}
-.cid-rSXNMUUSzk .soc-item:hover span {
-  color: rgba(111, 145, 218, 0.15);
-}
 .cid-rSOyolxKrP {
   padding-top: 75px;
   padding-bottom: 45px;
